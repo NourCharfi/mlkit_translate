@@ -113,12 +113,6 @@ Structure du projet
 - test/         — tests unitaires / widget tests
 - pubspec.yaml  — dépendances et configuration Flutter
 
-Qualité du code & bonnes pratiques
---------------------------------------------------------------
-- Respecter les lints : `flutter analyze` et règles définies dans `analysis_options.yaml`.
-- Utiliser des commits atomiques et messages clairs (ex : feat(camera): add image capture handler).
-- Branching : `main` pour version stable / `dev` pour intégration / `feat/*`, `fix/*` pour fonctionnalités et corrections.
-
 Crédits & références
 --------------------
 - Google ML Kit — https://developers.google.com/ml-kit
