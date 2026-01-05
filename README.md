@@ -103,19 +103,3 @@ await translator.downloadModelIfNeeded();
 final String translated = await translator.translateText(sourceText);
 await translator.close();
 ```
-
-Structure du projet
-------------------
-- lib/          — code source Flutter (UI, logique)
-- android/      — code natif Android
-- ios/          — code natif iOS
-- assets/       — images et ressources (ex: `assets/images/`)
-- test/         — tests unitaires / widget tests
-- pubspec.yaml  — dépendances et configuration Flutter
-
-Crédits & références
---------------------
-- Google ML Kit — https://developers.google.com/ml-kit
-- Packages Dart/Flutter sur pub.dev :
-  - google_mlkit_text_recognition
-  - google_mlkit_translation
